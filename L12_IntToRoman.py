@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2020/8/4 11:37 下午
 # @Author  : Dawein
-# @File    : IntToRoman.py
+# @File    : L12_IntToRoman.py
 # @Software : PyCharm
 
 """
@@ -71,5 +71,5 @@ class IntToRoman:
 # main
 if __name__ == '__main__':
     itr = IntToRoman()
-    print(itr.convert(3000))
+    print(itr.convert(1990))
 
