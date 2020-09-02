@@ -32,7 +32,7 @@ class Solution():
                 return
             for i in range(first, n):
                 curr.append(candidates[i])
-                backtrack(first+1, curr)
+                backtrack(i+1, curr)
                 curr.pop()
 
         output = []
@@ -42,7 +42,7 @@ class Solution():
 
 # main
 if __name__ == '__main__':
-    candidates = [2,3,5,7]
-    target = 7
+    candidates = [10,1,2,7,6,1,5]
+    target = 8
     s = Solution()
     print(s.combination_sum2(candidates, target))
